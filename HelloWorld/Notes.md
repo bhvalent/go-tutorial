@@ -24,17 +24,17 @@
         - has to be named `main` in order for the build command to generate an executable
         - must have a func called `main`
     - **Reusable:** Code used as helpers. Good place to put resusable logic. Like a shared library
-```
+```go
 package main 
 ```
 
 **import:** used to gain access to another package inside the one we are authoring
-```
+```go
 import "fmt"
 ```
 
 **func:** tells we are about to declare a function
-```
+```go
 func main() {
     // function body
 }
