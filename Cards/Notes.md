@@ -80,3 +80,17 @@ for i, card := range cards {
 ```
 type deck []string
 ```
+
+## Testing
+> filename must end in `_test.go`
+
+
+**To run tests:**
+```
+go test
+```
+**This automates the execution of any function of the form:**
+```
+func TestXxx(t *testing.T)
+```
+> where `Xxx` does not start with a lowercase letter
